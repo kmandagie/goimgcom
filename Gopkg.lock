@@ -2,6 +2,30 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:4c674bfb10004c3977fd086d36dcb232b06c1ceaa4a58dc7325eeae2e1df44ee"
+  name = "github.com/avct/uasurfer"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "2ce2c8fcd544edb053678744334884120f60da20"
+
+[[projects]]
+  digest = "1:8690ffe5ebca91cde3416d7264cbf98d8a27b5150aa51a72ae18c552b4aece3c"
+  name = "github.com/chai2010/webp"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "2f2af1eca6e61973231b4da4db56418f1b6dcb33"
+  version = "v1.0.0"
+
+[[projects]]
+  digest = "1:1dafdfd6b2d1103e1ef5c1c1255f395f3ceaceca327d3640d0f06039448bf85c"
+  name = "github.com/h2non/filetype"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "cc14fdc9ca0e4c2bafad7458f6ff79fd3947cfbb"
+  version = "v1.0.5"
+
+[[projects]]
   digest = "1:f992df6c97ba40d3643a5fbdf1d33497d1f43f84aa9567f7beb96c1472d74584"
   name = "github.com/labstack/echo"
   packages = ["."]
@@ -71,9 +95,25 @@
   pruneopts = "UT"
   revision = "3a76605856fddce5718553cbb8bd50ca492a7274"
 
+[[projects]]
+  digest = "1:1b9d6106326573c0212b29c1796f128271278474ed629055645ace928faaea67"
+  name = "gopkg.in/h2non/filetype.v1"
+  packages = [
+    "matchers",
+    "types",
+  ]
+  pruneopts = "UT"
+  revision = "cc14fdc9ca0e4c2bafad7458f6ff79fd3947cfbb"
+  version = "v1.0.5"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/labstack/echo"]
+  input-imports = [
+    "github.com/avct/uasurfer",
+    "github.com/chai2010/webp",
+    "github.com/h2non/filetype",
+    "github.com/labstack/echo",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1

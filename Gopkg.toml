@@ -32,3 +32,15 @@
 [[constraint]]
   name = "github.com/labstack/echo"
   version = "3.3.7"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/avct/uasurfer"
+
+[[constraint]]
+  name = "github.com/chai2010/webp"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/h2non/filetype"
+  version = "1.0.5"
