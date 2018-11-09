@@ -7,7 +7,10 @@ GOIMGCOM are server for static files with many optimization
 * Auto Optimize Static Script like CSS and JS
 * Cache for optimize image so your machine will happy
 
+### Issues
+* Currently not supporting SVG type
 
+### Thanks to This Awesome Package
 | Package                   | Description                                                       | Version   |
 | ------------------------- |:-----------------------------------------------------------------:| ---------:|
 | github.com/labstack/echo  | High performance, minimalist Go web framework                     | v3.3.7    |
