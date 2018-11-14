@@ -10,6 +10,10 @@ GOIMGCOM are server for static files with many optimization
 ### Issues
 * Currently not supporting SVG type
 
+### Implemented
+* Convert Image to webp right now only for chrome
+* Css trim space and new line
+
 ### Thanks to This Awesome Package
 | Package                   | Description                                                       | Version   |
 | ------------------------- |:-----------------------------------------------------------------:| ---------:|
